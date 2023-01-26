@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-sample-rest-api",
+  "version": "0.0.1",
+  "description": "this is a sample rest apy for study purpose",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"no test\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aPedrotti/sample-apps.git"
+  },
+  "keywords": [
+    "sample",
+    "restapi",
+    "nodejs"
+  ],
+  "author": "Andre Pedrotti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aPedrotti/sample-apps/issues"
+  },
+  "homepage": "https://github.com/aPedrotti/sample-apps#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

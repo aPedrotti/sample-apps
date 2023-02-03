@@ -12,6 +12,13 @@ app.listen(
   () => console.log(`it's live on port http://localhost:${PORT}`)
 )
 
+app.get('/healthy/live', (req, res) => {
+  res.status(200).send('Service is Alive');
+});
+app.get('/healthy/ready', (req, res) => {
+  res.status(200).send('Service is Ready to handle workloads!');
+});
+
 //this endpoint requeries request object (data received) and response object (data we send back)
 app.get('/tshirt', (req,res) => {
     res.status(200).send({
